@@ -4,46 +4,133 @@
 */
 
 /* RESET CSS BEGIN */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
   line-height: 1;
-    
+
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -91,19 +178,21 @@ i {
 }
 
 p,
-ul, li,
-ol, li {
+ul,
+li,
+ol,
+li {
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 20px;
 }
 
 
-
 /*END OF HELPER CLASSES*/
 
 
 /*GENERAL RULES*/
+
 
 @font-face {
   font-family: 'HelveticaNeue-Thin';
@@ -124,12 +213,19 @@ ol, li {
 }
 
 body {
-  font-family: 'HelveticaNeue-Thin';
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-size: 25px;
 }
+
+
+/*GENERAL RULES END*/
+
+
+/*HERO SECTION*/
+
 
 #hero {
   background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
@@ -142,7 +238,6 @@ h2 {
   font-size: 52px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Montserrat';
 }
 
 .nav li {
@@ -152,6 +247,7 @@ h2 {
 .nav li a {
   color: white;
   text-transform: uppercase;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 30px;
   padding-bottom: 3px;
@@ -181,7 +277,7 @@ h2 {
   right: -135px;
 }
 
-.iphone  {
+.iphone {
   width: 85%;
   position: relative;
   margin-bottom: -260px;
@@ -209,7 +305,7 @@ h2 {
   text-transform: uppercase;
   border-radius: 50px;
   transition: 0.3s;
-  
+
 }
 
 .cta-button:hover {
@@ -223,24 +319,56 @@ h2 {
 }
 
 
+/*HERO SECTION END*/
 
 
+/*APP FEATURES SECTION*/
 
 
+#app-features .container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#app-features h2 {
+  color: #8a8a8a;
+  margin-bottom: 40px;
+}
+
+.p-features {
+  font-family: 'HelveticaNeue-Thin';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #3a3a3a;
+  padding: 0px 130px;
+}
+
+.col-4-app {
+  width: 33%;
+  float: left;
+  padding: 0 45px;
+}
+
+.col-4-app p {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'HelveticaNeue-Thin';
+  color: #7b7b7b;
+}
+
+.row {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.row h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  margin: 30px 0;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*APP FEATURES SECTION END*/
