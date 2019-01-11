@@ -372,3 +372,58 @@ h2 {
 
 
 /*APP FEATURES SECTION END*/
+
+
+/*NOSE SECTION*/
+
+
+#nose {
+  background: url('../img/nose.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.download-info {
+  width: 50%;
+  padding: 200px 0px;
+}
+
+#nose .container {
+  padding: 0;
+}
+
+#nose h2 {
+  margin-bottom: 50px;
+  color: #f55150;
+}
+
+#nose p {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'HelveticaNeue-Thin';
+  padding-bottom: 70px;
+  color: #585858;
+  padding-right: 200px;
+}
+
+.download-btn {
+  padding: 15px;
+  background: #d9332d;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #c33934;
+  transition: 0.3s;
+}
+
+.download-info span {
+  color: white;
+}
+
+
+/*NOSE SECTION END*/
