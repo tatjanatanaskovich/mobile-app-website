@@ -514,7 +514,7 @@ footer p {
 
 .inline {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .cr,
@@ -523,6 +523,11 @@ footer p {
   border-right: 2px solid #585858;
   padding-right: 20px;
   vertical-align: middle;
+}
+
+.inline a {
+  text-decoration: none;
+  color: black;
 }
 
 .fb,
@@ -534,6 +539,7 @@ footer p {
 
 
 /* COPYRIGHT SECTION  END*/
+
 
 
 
