@@ -499,6 +499,41 @@ footer p {
 /* FOOTER END*/
 
 
+/* COPYRIGHT SECTION */
+
+
+#copyright {
+  background: #d7dedc;
+}
+
+#copyright .container {
+  padding: 40px;
+  text-align: center;
+  color: #585858;
+}
+
+.inline {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.cr,
+.me {
+  margin-right: 20px;
+  border-right: 2px solid #585858;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+.fb,
+.tw,
+.dr {
+  margin-right: 20px;
+ padding-left: 20px
+}
+
+
+/* COPYRIGHT SECTION  END*/
 
 
 
